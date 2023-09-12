@@ -35,8 +35,7 @@ public class DropwizardApplicationApplication extends Application<DropwizardAppl
                     final Environment environment) {
         // TODO: implement application
         environment.jersey().register(new TestController());
+
     }
-
-
 
 }
